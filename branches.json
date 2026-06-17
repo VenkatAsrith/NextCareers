@@ -1,0 +1,262 @@
+[
+  {
+    "branchCode": "BRANCH",
+    "branchName": "BRANCH NAME",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSE",
+    "branchName": "COMPUTER SCIENCE AND ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSM",
+    "branchName": "COMPUTER SCIENCE AND ENGINEERING\n(ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "ECE",
+    "branchName": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "EEE",
+    "branchName": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MEC",
+    "branchName": "MECHANICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CIV",
+    "branchName": "CIVIL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSD",
+    "branchName": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSO",
+    "branchName": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "INF",
+    "branchName": "INFORMATION TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "AIM",
+    "branchName": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MIN",
+    "branchName": "MINING ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "PHD",
+    "branchName": "PHARM - D (M.P.C. STREAM)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "PHM",
+    "branchName": "B. PHARMACY (M.P.C. STREAM)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSC",
+    "branchName": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSW",
+    "branchName": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "AID",
+    "branchName": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "BME",
+    "branchName": "BIO-MEDICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CHE",
+    "branchName": "CHEMICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSB",
+    "branchName": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "PHE",
+    "branchName": "PHARMACEUTICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "AGR",
+    "branchName": "AGRICULTURAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "BIO",
+    "branchName": "BIO-TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CIC",
+    "branchName": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN\nTECHNOLOGY)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "DRG",
+    "branchName": "DAIRYING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "FDT",
+    "branchName": "FOOD TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSG",
+    "branchName": "COMPUTER SCIENCE & DESIGN",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "EIE",
+    "branchName": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "AI",
+    "branchName": "ARTIFICIAL INTELLIGENCE",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CST",
+    "branchName": "COMPUTER SCIENCE AND TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "ETM",
+    "branchName": "ELECTRONICS AND TELEMATICS",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "ANE",
+    "branchName": "AERONAUTICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSI",
+    "branchName": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "ECM",
+    "branchName": "ELECTRONICS AND COMPUTER ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "DTD",
+    "branchName": "DIGITAL TECHNIQUES FOR DESIGN AND PLANNING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "PLG",
+    "branchName": "PLANNING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MET",
+    "branchName": "METALLURGICAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MMS",
+    "branchName": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MTE",
+    "branchName": "BTECH MECHANICAL WITH MTECH THERMAL ENGG",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSN",
+    "branchName": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "ECI",
+    "branchName": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION\nENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CME",
+    "branchName": "COMPUTER ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MCT",
+    "branchName": "MECHANICAL (MECHTRONICS) ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "MMT",
+    "branchName": "METALLURGY AND MATERIAL ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "AUT",
+    "branchName": "AUTOMOBILE ENGINEERING",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "TEX",
+    "branchName": "TEXTILE TECHNOLOGY",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CS",
+    "branchName": "COMPUTER SCIENCE",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "CSA",
+    "branchName": "COMPUTER SCIENCE AND",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "BSE",
+    "branchName": "BUILDING SERVICES ENGG",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "GEO",
+    "branchName": "GEO INFORMATICS",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "",
+    "branchName": "",
+    "stream": "EAPCET"
+  },
+  {
+    "branchCode": "EVL",
+    "branchName": "ELECTRONICS ENGINEERING (VLSI DESIGN AND\nTECHNOLOGY)",
+    "stream": "EAPCET"
+  }
+]

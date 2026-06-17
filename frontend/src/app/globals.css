@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080809;
+  --foreground: #F2EFE9;
+  
+  --primary-cream: #F2EFE9;
+  --primary-orange: #FF6B35; /* Coral orange matching the reference card button */
+  --accent-orange: #E04F16;
+  --deep-orange: #C03E0B;
+  --dark-charcoal: #121214;
+  --rich-black: #080809;
+  
+  --orange-glow: rgba(255, 107, 53, 0.12);
+  --orange-glow-strong: rgba(255, 107, 53, 0.3);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-cream: var(--primary-cream);
+  --color-primary-orange: var(--primary-orange);
+  --color-accent-orange: var(--accent-orange);
+  --color-dark-charcoal: var(--dark-charcoal);
+  --color-rich-black: var(--rich-black);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Premium Card Design matching reference image */
+.premium-card {
+  position: relative;
+  background: rgba(18, 18, 20, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 107, 53, 0.08);
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.05), 
+              0 20px 50px rgba(0, 0, 0, 0.65);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Glowing top-left corner effect from reference image */
+.premium-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle at top left, rgba(255, 107, 53, 0.18) 0%, transparent 75%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.premium-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 107, 53, 0.22);
+  box-shadow: inset 1px 1px 1px rgba(255, 107, 53, 0.12),
+              0 25px 60px rgba(255, 107, 53, 0.08),
+              0 4px 25px rgba(0, 0, 0, 0.7);
+}
+
+.premium-card-hover:hover::before {
+  background: radial-gradient(circle at top left, rgba(255, 107, 53, 0.28) 0%, transparent 80%);
+}
+
+/* Premium Buttons matching reference image (coral orange gradient) */
+.premium-btn-primary {
+  background: linear-gradient(135deg, #FF6B35 0%, #E04F16 100%);
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  border: none;
+}
+
+.premium-btn-primary:hover {
+  background: linear-gradient(135deg, #FF8253 0%, #F5551A 100%);
+  box-shadow: 0 6px 25px rgba(255, 107, 53, 0.4);
+  transform: translateY(-1px);
+}
+
+.premium-btn-primary:active {
+  transform: translateY(1px);
+}
+
+.premium-btn-secondary {
+  background: rgba(18, 18, 20, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 107, 53, 0.15);
+  color: #F2EFE9;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.premium-btn-secondary:hover {
+  background: rgba(255, 107, 53, 0.06);
+  border-color: #FF6B35;
+  color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(255, 107, 53, 0.1);
+}
+
+/* Form Inputs matching reference design style */
+.premium-input {
+  background: rgba(10, 10, 11, 0.75);
+  border: 1px solid rgba(255, 107, 53, 0.15);
+  color: #FFFFFF;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.premium-input:focus {
+  outline: none;
+  border-color: #FF6B35;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.15);
+  background: rgba(10, 10, 11, 0.9);
+}
+
+/* Premium glow spots background */
+.glow-spot {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 107, 53, 0.12) 0%, rgba(224, 79, 22, 0.02) 65%, transparent 100%);
+  filter: blur(60px);
+  pointer-events: none;
+}
+
+/* Pills and Badges from the design */
+.premium-badge {
+  background: rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  color: #FF6B35;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.premium-badge-muted {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #A0A0A5;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080809;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 107, 53, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 107, 53, 0.4);
+}
